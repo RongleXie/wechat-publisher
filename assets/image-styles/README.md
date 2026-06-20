@@ -45,6 +45,7 @@ accounts:
 | 风格 | 视觉关键词 | 最适合的话题 | 密度 | 贴图 | 文章 |
 |---|---|---|---|---|---|
 | [`warm-handdrawn`](#warm-handdrawn) ⭐ | 细黑线 + 米白 + 粉/暖黄手账卡片 | 工具测评、功能对比、上手指南、概念科普(**文章默认**) | 中 | ✅ | ✅ 默认 |
+| [`flat-editorial`](#flat-editorial) | 黑线 + 米白 + 克制柔彩(桃/绿/黄/紫高亮) | 步骤讲解、工具/功能对比、概念拆解、调试复盘 | 中 | ✅ | ✅ |
 | [`tech-card-blue`](#tech-card-blue) | 浅蓝底 + 大字 + 极简 | 技术技巧、命令讲解、短观点 | 低 | ✅ | ✅ |
 | [`hand-drawn-blue`](#hand-drawn-blue) | 手绘线条 + 蓝点缀 | 概念解释、架构图、流程图(全能选手) | 中 | ✅ | ✅ |
 | [`illustrated-warm`](#illustrated-warm) | 暖橙 + 卡通人物 + 气泡 | 体验讲解、使用指南、亲切感强的技巧 | 中 | ✅ | ✅ |
@@ -101,6 +102,25 @@ accounts:
 - **最适合**:工具测评、功能对比、上手指南、概念科普
 - **别用在**:纯数据报告(换 `data-chart`)、需要人物讲故事(换 `illustrated-warm`)、冷硬架构(换 `hand-drawn-blue`)
 - **跨 skill**:与 x-publisher 的 `warm-handdrawn` 同名同风格,一个名两处复用
+
+</td></tr></table>
+
+---
+
+### flat-editorial
+
+黑线 + 米白/白卡 + 克制柔彩高亮的结构化信息图。中等粗细黑色描边、实心黑发连帽衫小人、黑色数字圆圈分步;代码窗口 mock(绿=修复 / 桃=报错 / 红波浪线)、便签、文件夹、对勾、扁平小图标。比暖手绘更冷静专业,信息密度更高。
+
+<table>
+<tr><td width="300">
+<img src="previews/flat-editorial.webp" alt="flat-editorial preview" />
+</td><td>
+
+- **主题色**:`#f6f4ef` 米白底 / `#1f1f1f` 黑 / 柔彩高亮 桃`#f4a261`·绿`#a8d3a6`·黄`#fbe7a2`·紫`#d3c5ea`
+- **排版**:16:9 文章 / 3:4 贴图,粗黑标题 + 数字步骤 + 白卡
+- **最适合**:步骤讲解、工具/功能对比、概念拆解、调试/工作流复盘
+- **别用在**:纯氛围/生活(换 `warm-handdrawn` 或 `illustrated-warm`)、纯数据(换 `data-chart`)
+- **跨 skill**:与 x-publisher 的 `flat-editorial` 同名同风格,一个名两处复用
 
 </td></tr></table>
 
